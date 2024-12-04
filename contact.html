@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Greg's Pet Photography</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="logo">Greg's Pet Photography</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#.html">Portfolio</a></li>
+            <li><a href="#.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="introduction">
+            <h3>About Me</h3>
+            <img src="images/photographer.jpg"
+                alt="Greg the photographer with brown hair, glasses, and a camera wearing a black and white shirt">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum ornare lorem, eget consectetur
+                nunc.
+                Ut accumsan aliquet dolor, a egestas nisl pulvinar sit amet. Nunc id sapien sed neque tincidunt euismod
+                at sit amet felis. Proin porttitor, leo at tincidunt pharetra, metus eros pharetra mauris, eget volutpat
+                quam turpis a odio. Praesent sit amet aliquet nisi. Etiam non orci nec massa dictum rutrum. Nunc in nibh
+                arcu.Praesent non commodo justo. Vestibulum nec facilisis leo, at semper dolor. Nunc risus turpis,
+                semper vel
+                maximus nec, pellentesque ac felis.</p>
+        </div>
+
+        <div id="availability">
+            <table>
+                <caption>Availability for Booking</caption>
+                <tr><!-- Row 1 -->
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+
+                <tr><!-- Row 2 -->
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>9 AM to 12 PM</td>
+                    <td>7 AM to 3 PM</td>
+                    <td>10 AM to 1 PM</td>
+                    <td>8 AM to 12 PM</td>
+                    <td>9 AM to 12 PM</td>
+                </tr>
+
+                <tr><!-- Row 3 -->
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>1 PM to 4 PM</td>
+                    <td>5 PM to 8 PM</td>
+                    <td>3 PM to 5 PM</td>
+                    <td>2 PM to 6 PM</td>
+                    <td>1 PM to 4 PM</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="form">
+            <h3>Reach out to set up a consultation:</h3>
+
+            <form class="form-grid"> <!--Start Form-->
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName">
+
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName">
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone">
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend> Reason for Contact</legend>
+
+                    <label for="consultation"><input type="checkbox" name="interest" id="consultation"
+                            value="Consultation">Consultation</label>
+
+                    <label for="pricing"><input type="checkbox" name="interest" id="pricing"
+                            value="Pricing">Pricing</label>
+
+                    <label for="photoSession"><input type="checkbox" name="interest" id="photoSession"
+                            value="Photo Session">Photo Session</label>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+
+                    <label for="emailContact"><input type="radio" name="contactMethod" id="emailContact"
+                            value="Email">Email</label>
+
+                    <label for="phoneContact"><input type="radio" name="contactMethod" id="phoneContact"
+                            value="Phone">Phone</label>
+
+                </fieldset>
+                <br>
+
+                <input type="submit" id="submit" value="Submit" class="btn">
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Designed By: Ashlinn Stoneking</p>
+        <p>&copy; Copyright 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

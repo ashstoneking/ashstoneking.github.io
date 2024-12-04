@@ -1,0 +1,206 @@
+/*CSS Reset*/
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1,
+h3,
+ul,
+li,
+div {
+    padding: 0;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+/*Body Styles*/
+body {
+    background-color: #FCF3E3;
+}
+
+
+/*Header Styles*/
+header {
+    text-align: center;
+    font-size: 3em;
+    color: #013D5A;
+    background-color: #FCF3E3;
+}
+
+header h1 {
+    font-family: 'Pacifico', serif;
+}
+
+
+/*Nav Bar Styles*/
+nav {
+    background-color: #708C69;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    font-family: 'MD Serif Display', serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+nav li a {
+    color: #FCF3E3;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/*Main Content Styles*/
+main {
+    padding: 2%;
+    background-color: #FCF3E3;
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+    color: #4C4C4C;
+}
+
+main p {
+    font-size: 1.5em;
+}
+
+.row p {
+    font-size: 1em;
+    font-style: italic;
+}
+
+
+/*Image Styles*/
+img {
+    width: 50%;
+    border-radius: 7px;
+    border: 5px solid #F4A258;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#introduction img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Contact Header Styles*/
+#introduction h3,
+#form h3 {
+    font-size: 2em;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    text-align: center;
+    color: #708C69;
+}
+
+
+/*Table Styles*/
+/*Style Rules for Table*/
+table {
+    /*border: 1px solid #F4A258;
+    border-radius: 7px;*/
+    border: none;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+caption {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    color: #708C69;
+    padding: 1%;
+}
+
+th,
+td {
+    border: none;
+    padding: 2%;
+}
+
+th {
+    background-color: #708C69;
+    color: #FCF3E3;
+    font-size: 1.15em;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+
+td {
+    background-color: #FCF3E3;
+    color: #4C4C4C;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid #F4A258;
+}
+
+
+
+/*Form Styles*/
+fieldset,
+input {
+    margin-bottom: 2%;
+    border-radius: 7px;
+    border-color: #F4A258;
+}
+
+fieldset legend {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: inline;
+    text-align: center;
+}
+
+#submit {
+    margin: 0 auto;
+    display: block;
+    padding: 3%;
+    background-color: #708C69;
+    border-color: #FCF3E3;
+    border-radius: 7px;
+    color: #FCF3E3;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+/*Footer Styles*/
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    color: #4C4C4C;
+    font-family: 'Poppins', sans-serif;
+    clear: left;
+}
